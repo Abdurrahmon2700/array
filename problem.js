@@ -190,7 +190,19 @@
 // console.log("c:",count);
 
 // problem 170 
-// domla ishlab berishdi
+// let array = [1, -3, 12, -1, -4];
+// let r = 10;
+// let newarr = array[0];
+// let res = Infinity;
+// for (let i = 0; i < array.length; i++) {
+//   let t = Math.abs(array[i] -r);
+//   if (res > t) {
+//     res = t;
+//     a = array[i];
+//   }
+// }
+// console.log(a);
+
 
 // problem 171 
 // let array = [1, -10, 2, 1, 2, 5];
@@ -208,4 +220,12 @@
 //   }
 // }
 // console.log(newarr);
+
+// problem 172 
+// let onearr = [true, -5];
+// let twoarr = [2, null];
+// let sum = onearr;
+// onearr = twoarr;
+// twoarr = sum;
+// console.log(onearr, twoarr);
 

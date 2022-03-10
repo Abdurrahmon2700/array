@@ -229,3 +229,93 @@
 // twoarr = sum;
 // console.log(onearr, twoarr);
 
+// probem 173
+// let array = [1, -10, 2, 1, 2,5];
+// let newarray = [];
+// for (let i = 0; i < array.length; i++) {
+//   if (array[i] < 5) {
+//     newarray[i] = 2*array[i];
+//   } else {
+//     newarray[i] = array[i] /2;
+//   }
+// }
+
+// console.log(newarray);
+
+
+// problem 174 
+// let a = [10, -8];
+// let b = [5, 1];
+// let c = [];
+// for (let i = 0; i < a.length; i++) {
+//   if (a[i] > b[i]) {
+//     c[i] = a[i]
+//   } else {
+//     c[i] = b[i]
+//   }
+// }
+// console.log(c);
+
+// problem 175 
+// let a = [1, 2, 3, 4, 5];
+// let juft = [];
+// for (let i = 0; i < a.length; i++) {
+//   if (a[i] % 2 == 0) {
+//     juft.push(a[i])
+//   }
+// }
+// console.log(juft);
+
+// problem 176
+// let array = [1, 2, 3, 4, 5];
+// let newarr = [];
+// let count = 0;
+// for (let i = 0; i < array.length; i++) {
+//   count += array[i];
+//   newarr[newarr.length] = count;
+// }
+// console.log(newarr);
+
+// problem 177
+// let array = [1, 2, 3, 4, 5];
+// let newarr = [];
+// for(let i = 0; i < array.length; i++) {
+//   let count = 0;
+//   for(let j = i; j < array.length; j++) {
+//     count += array[j];
+//   }
+//   newarr[newarr.length] = count;
+// }
+// console.log(newarr);
+
+
+// problem 178
+
+//  problem 179 
+// let aarray = [];
+// let n = 6;
+// let a = 0;
+// let b = 1;
+// let c = 0;
+
+// for(let i = 1; i <= n; i++){
+//   c = a + b;
+//   a = b;
+//   b = c;
+//   aarray[aarray.length] = c;
+// }
+// console.log(aarray);
+
+// problem 182 
+// let array = [1,2,3];
+// n = 5;
+// let count
+// for (let i = 0; i < array.length; i++) {
+//   if (array[i] == n) {
+//     console.log(i);
+//     break
+//   } else  {
+//     console.log(-1);
+//     break
+//   }
+// }
